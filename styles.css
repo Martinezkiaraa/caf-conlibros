@@ -1,0 +1,479 @@
+body {
+    margin: 0;
+    background-color: rgba(209,219,221,255);
+    font-size: 16px;
+}
+header {
+    width: 100%;
+   background-color: rgba(121,183,172,255) ;
+   position: sticky;
+   top: 0;
+   margin-left: auto;
+   margin-right: auto;
+   min-width: 18.75rem;
+}
+#btn-menu{
+    display: none;
+    width: 1.875rem;
+    height: 1.875rem;
+    padding: 0.625rem;
+}
+header label{
+    display: none;
+border-right: 1px solid #fff;
+}
+header label:hover{
+    cursor: pointer;
+    background: rgba(138,199,190,259);
+}
+#logo{
+    width: 1.875rem;
+    height: 1.875rem;
+    padding: 0.3125rem;
+}
+.menu ul{
+    margin: 0;
+    list-style: none;
+   padding: 0;
+    display: flex;
+    justify-content: center;
+}
+.menu li:hover{
+    background: rgba(138,199,190,259);
+}
+.menu li{
+    flex-grow: 1;
+}
+.menu li a  {
+    display: block;
+    padding: 0.9375rem  3.125rem;
+    color: #fff;
+    text-decoration: none;
+    font-family: 'Karla'; 
+}
+#Titulo{
+    height: 400px;
+    display: flex;
+    justify-content: space-evenly;
+  padding: 0px 2.5rem;
+    align-items: center;
+    background-image:url(file:///C:/Users/Csistemas/Documents/Documents/Stuff%20from%20Kiara/Blog%20de%20Libros/Fondo.jpg);
+}
+.sweetscroll p{
+    font-family: 'Lobster', cursive;
+    color: white;
+    font-size: 12rem;
+    height: 6.25rem;
+    width: 100%;
+    margin: 0px;
+    text-align: center;
+    padding: 20px 0;
+    line-height: 6.25rem;
+}
+#Bienvenida{
+     color: white;
+   width: 100%;
+   /*height: 6.25rem;*/
+   height: auto;
+   background-color: rgba(121,183,172,255) ;
+   text-align: center; 
+   font-family: 'Karla';
+   font-size: 1.25rem;
+}
+#Bienvenida> h2{
+   margin: 0;
+   padding-top: 4px;
+}
+#Bienvenida> p{
+    font-size: 1.50rem;
+    font-family: 'Carattere', cursive;
+    line-height: 2rem;
+    margin: 0;
+    padding-bottom: 4px;
+}
+#TituloP{
+    margin-top: 10px;
+    height: 60px;
+    justify-content: space-evenly;
+    padding: 0px 40px;
+    align-items: center;
+    background-color: rgba(121,183,172,255);
+}
+.sweetscrollP p{
+    font-family: 'Lobster', 'Karla', cursive;
+    color: white;
+    font-size: 40px;
+    height: 50px;
+    width: 100%;
+    margin: 0px;
+    text-align: left;
+    line-height: auto;
+}
+.grid{
+    display: grid;
+    grid-template-columns: 85% 15%;
+    }
+.contenedor {
+    width: auto;
+margin: 0.625rem;
+line-height: 3.125rem;
+text-align: center;
+}
+.contenedor > div {
+    /*padding: 0.625rem;*/
+    color: black;
+    background-color:rgba(250,243,235,255);
+  box-shadow: 2px 2px 10px rgba(0,0,0,.25);
+}
+.link{
+    font-family: 'Karla', cursive;
+    font-size:large;
+    line-height: 30px;
+}
+.link > a{
+   color: black;
+   text-decoration: none;
+   margin: auto;
+}
+.link> a > h2{
+    margin: 5px;
+}
+.link> a > p{
+    margin: 5px;
+}
+/* COTENEDORES DE TEXTO*/
+.contenedort{
+    text-decoration: none;
+    width: auto;
+    margin: 10px;   
+    font-size: 30px;
+    font-family: 'Karla';
+    color: black;
+    line-height: 50px;
+    text-align: center; 
+    background-color:rgba(250,243,235,255);
+    box-shadow: 2px 2px 10px rgba(0,0,0,.25);
+}
+.contenedort > div { 
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+}
+/* CONTENEDOR DE LINK EN CONTACTO*/
+.contenedort >div> .inside2 a{
+text-decoration: none;
+color: black;
+}
+.contenedort >div> .inside5 {
+font-size: 20px;
+}
+/* clases de imagenes*/
+img.fotos {
+    border-radius: 10px;
+    height: 400px;
+    width: 300px;
+    margin-top: 10px;
+}
+img.logo{
+    border-radius: 10px;
+    margin-top: 10px;
+    height: 200px;
+    width: 200px;
+}
+img.twitter{
+    height: 300px;
+    width: 480px;
+    margin-top: 50px ;
+    vertical-align: text-bottom;
+}
+img.gmail{
+    vertical-align: middle;
+    height: 80px;
+    width: 160px;
+    margin: 20px;
+    border-radius: 8px;
+}
+.contenedorc{
+    text-decoration: none;
+     width: auto;
+     margin: 10px;   
+     font-size: 1rem;
+     font-family: 'Karla';
+     color: black;
+     text-align: center; 
+     background-color:rgba(250,243,235,255);
+     box-shadow: 2px 2px 10px rgba(0,0,0,.25);
+ }
+ .contenedorc > div> .inside1 h2 {
+     width: 100%;
+     height: 80px;
+     font-family: 'Carattere';
+ }
+#Portadas {
+    margin-top: 25px;
+    margin-left: 40px;
+    max-width: 100%;
+    width: 250px;
+    height: auto;
+    vertical-align: middle;
+  padding: 10px;
+    /*vertical-align:-webkit-baseline-middle;*/
+   }
+   .aside{
+    background-color: rgba(198,225,206,255) ;
+    margin: 15px;
+    text-align: center;
+    box-shadow: 2px 2px 10px rgba(0,0,0,.25);
+}
+.aside>h2{
+    font-size: 2rem;
+    font-family: 'Carattere';
+}
+.aside input{
+    padding: 6px;
+  text-align: center;
+  width: 8.125rem;
+  border: 1px solid #c7c7c7;
+  background-color: rgb(250, 250, 250);
+  border-radius: 4px;
+  outline: none;
+}
+footer{
+    background-color:black;
+    color: whitesmoke;
+    text-align: center;
+    height: 50px ;
+    line-height: 50px;
+    font-family: 'Carattere', cursive;
+    font-size: x-large;
+}
+#Sugestions{
+    background-color: antiquewhite;
+    margin: 8px;
+    display: inline-block;
+    width: auto;
+    padding: 10px;
+}
+#Miniaturas{
+    margin: 5px;
+    width: 130px;
+    height: 210px;
+}
+
+
+
+@media (max-width:768px){
+    header label{
+        width: 40px;
+        display: block;
+    }
+    .menu {
+        position: absolute;
+        background:rgba(138,199,190,259);
+        width: 70%;
+        margin-left: -70%;
+        transition: all 0.5s;
+    }
+    .menu ul{
+        flex-direction: column;
+    }
+    .menu li{
+        border-top: 1px solid #fff;
+    }
+    #btn-menu:checked ~ .menu {
+        margin: 0;
+    }
+    #Titulo{
+        height: 8.4375rem;
+        min-width: 8.75rem;
+    }
+    .sweetscroll p{
+        font-family: 'Lobster', cursive;
+        color: white;
+        font-size: 3rem;
+       /* height: 2rem;*/
+        width: 100%;
+        margin: 0px;
+        text-align: center;
+        padding: 20px 0;
+        line-height: 6.25rem;
+    }
+    #Bienvenida{
+        color: white;
+      width: 100%;
+      /*height: 6.25rem;*/
+      height: auto;
+      background-color: rgba(121,183,172,255) ;
+      text-align: center; 
+      font-family: 'Karla';
+      font-size: 0.9rem;
+   }
+   #Bienvenida> h2{
+      margin: 0;
+      padding-top: 1px;
+   }
+   #Bienvenida> p{
+       font-size: 1rem;
+       font-family: 'Carattere', cursive;
+       line-height: 1rem;
+       margin: 0;
+       padding-bottom: 2px;
+   }
+   #TituloP{
+    color: white;
+     /* width: 100%;*/
+      /*height: 6.25rem;*/
+      height: auto;
+      background-color: rgba(121,183,172,255) ;
+      text-align: center; 
+      font-family: 'Karla';
+      font-size: 0.9rem;
+}
+.sweetscrollP p{
+    font-family: 'Lobster', 'Karla', cursive;
+    color: white;
+    font-size: 1rem;
+    height: auto;
+    width: 375px;
+    margin: 0px;
+    text-align: left;
+    line-height: auto;
+}
+   .grid{
+    display: grid;
+    grid-template-columns: 100%;
+    }
+   .contenedor {
+    width: 370px;
+    margin-left: 30px;
+    margin-top: 10px;
+  line-height: 3.125rem;
+  text-align: center;
+ }
+ .contenedor > div {
+    width: 7.8125rem;
+    height: 11.875rem;
+    color: black;
+    background-color:rgba(250,243,235,255);
+  box-shadow: 1px 1px 5px rgba(0,0,0,.25);
+ }
+
+ .link h2{
+  /*  font-family: 'Karla', cursive;
+    font-size:0.5rem;
+    line-height: 11px;*/
+    display: none;
+ }
+ .link > a >p {
+   display: none;
+ }
+ /* COTENEDORES DE TEXTO*/
+.contenedort{
+    text-decoration: none;
+    width: auto;
+    margin: 0.3125rem;   
+    font-size: 0.9375rem;
+    font-family: 'Karla';
+    color: black;
+    line-height: 1.5625rem;
+    text-align: center; 
+    background-color:rgba(250,243,235,255);
+    box-shadow: 2px 2px 10px rgba(0,0,0,.25);
+}
+.contenedort > div { 
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+}
+/* CONTENEDOR DE LINK EN CONTACTO*/
+.contenedort >div> .inside2 a{
+text-decoration: none;
+color: black;
+}
+.contenedort >div> .inside5 {
+    margin-left: 10px;
+font-size: 10px;
+}
+/* clases de imagenes*/
+img.fotos {
+    border-radius: 10px;
+    height: 130px;
+    width: 104px;
+    margin-top: 10px;
+}
+img.logo{
+    border-radius: 10px;
+    margin-top: 10px;
+    height: 50px;
+    width: 50px;
+}
+img.twitter{
+    height: 90px;
+    width: 160px;
+    margin-top: 25px ;
+    margin-right: 10px;
+    vertical-align: text-bottom;
+}
+img.gmail{
+    vertical-align: middle;
+    height: 40px;
+    width: 80px;
+    margin: 10px;
+    border-radius: 8px;
+}
+.contenedorc{
+    text-decoration: none;
+     width: auto;
+     margin: 5px;   
+     font-size: 0.8rem;
+     font-family: 'Karla';
+     color: black;
+     text-align: center; 
+     background-color:rgba(250,243,235,255);
+     box-shadow: 2px 2px 10px rgba(0,0,0,.25);
+ }
+ .contenedorc > div {
+     /*display: block; */ 
+     display:flexbox;
+    /* grid-template-columns: 60% 40%;*/
+   /*  grid-template-rows: 20% auto;*/
+    /* grid-gap: 5px;*/
+ 
+ }
+ #Portadas {
+    margin-top: 0px;
+    margin-left: 0px;
+    max-width: 100%;
+    height: 190px;
+    width: 125px;
+    vertical-align: middle;
+      padding: 0px;
+    /*vertical-align:-webkit-baseline-middle;*/
+   }
+   .aside{
+    visibility: hidden;
+ } 
+ .aside>h2{
+   visibility: hidden;
+ }
+ .aside input{
+    display: none;
+ }
+ footer{
+    background-color:black;
+    color: whitesmoke;
+    text-align: center;
+    width: 100%;
+    height: 30px ;
+    font-family: 'Carattere', cursive;
+    font-size: 1rem;
+}
+#Sugestions{
+  display: none;
+}
+#Miniaturas{
+  display: none;
+}
+
+}
+   

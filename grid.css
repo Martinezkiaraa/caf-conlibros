@@ -1,0 +1,22 @@
+.contenedor {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-gap: 10px;
+}
+.contenedorc {
+    display: grid;
+    grid-template-columns: 100%;
+   /* grid-gap: 5px; */
+}
+.contenedort{
+    display: grid;
+    grid-template-columns: 100%;
+    grid-gap: 5px;
+}
+@media (max-width:768px){
+    .contenedor {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-column-gap: 5px !;
+    }
+}
