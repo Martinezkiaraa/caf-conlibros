@@ -57,6 +57,7 @@ header label:hover{
     justify-content: space-evenly;
     padding: 0px 2.5rem;
     align-items: center;
+    background-image:url('https://raw.githubusercontent.com/Martinezkiaraa/caf-conlibros/main/Fondo.jpg');
 }
 
 .sweetscroll p{
