@@ -55,10 +55,11 @@ header label:hover{
     height: 400px;
     display: flex;
     justify-content: space-evenly;
-  padding: 0px 2.5rem;
+    padding: 0px 2.5rem;
     align-items: center;
-    background-image:url(file:///C:/Users/Csistemas/Documents/Documents/Stuff%20from%20Kiara/Blog%20de%20Libros/Fondo.jpg);
+    background-image:url('https://raw.githubusercontent.com/Martinezkiaraa/caf-conlibros/main/Fondo.jpg');
 }
+
 .sweetscroll p{
     font-family: 'Lobster', cursive;
     color: white;
